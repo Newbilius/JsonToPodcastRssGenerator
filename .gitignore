@@ -1,0 +1,7 @@
+/.vs
+/packages
+/old_hard.xml
+/Tests/obj/
+/Tests/bin/
+/Program/obj
+/Program/bin

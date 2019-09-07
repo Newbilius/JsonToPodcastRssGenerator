@@ -1,0 +1,55 @@
+﻿{
+	"Title": "Заголовок подкаста",
+	"Subtitle": "Подзаголовок подкаста",
+	"Link": "http://www.example.ru",
+	"Language": "RU",
+	"Author": "Автор подкаста",
+	"AuthorEmail": "author@example.com",
+	"AuthorName": "Автор",
+	"ImageUrl": "https://www.example.com/example.jpg",
+	"Explicit": false,
+	"Description": "Краткое описание в формате Markdown",
+	"Categories": [
+		{
+			"Name": "Leisure",
+			"SubCategory": "Video Games"
+		},
+		{
+			"Name": "Technology"
+		}
+	],
+	"Episodes": [
+		{
+			"Id": "ID_1",
+			"MP3FileUrl": "https://www.example.com/podcast/01.mp3",
+			"MP3FileSizeBytes": 42,
+			"Explicit": false,
+			"Title": "Заголовок выпуска",
+			"Subtitle": "Подзаголовок выпуска",
+			"Date": "2019-08-25",
+			"Description": "Описание в формате markdown",
+			"ImageUrl": "https://www.example.com/podcast/01.png",
+			"DurationHours": 1,
+			"DurationMinutes": 20,
+			"DurationSeconds": 27,
+			"Link": "https://www.example.com/podcast/01.html",
+			"EpisodeNumber": 1,
+			"SeasonNumber": 1
+		},
+		{
+			"Id": "ID_2",
+			"MP3FileUrl": "https://www.example.com/podcast/02.mp3",
+			"MP3FileSizeBytes": 56,
+			"Explicit": false,
+			"Title": "Заголовок выпуска номер два",
+			"Subtitle": "Подзаголовок выпуска номер два",
+			"Date": "2019-09-13",
+			"Description": "Описание в формате markdown",
+			"ImageUrl": "https://www.example.com/podcast/02.png",
+			"DurationMinutes": 15,
+			"Link": "https://www.example.com/podcast/02.html",
+			"EpisodeNumber": 1,
+			"SeasonNumber": 2
+		}
+	]
+}
