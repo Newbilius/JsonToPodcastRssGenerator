@@ -1,5 +1,6 @@
 ﻿using HeyRed.MarkdownSharp;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Xml;
 using JsonToRssGenerator.Data;
@@ -155,7 +156,8 @@ namespace JsonToRssGenerator
             //
 
             //дополнительные отступы для iTunes
-            var descriptionHtml = markdown.Transform(episode.Description);
+            var description = episode.Description + (channel.EpisodeDescriptionFooter ?? "");
+            var descriptionHtml = markdown.Transform(description);
             descriptionHtml = descriptionHtml
                 .Replace("<h1>", "<br><h1>")
                 .Replace("<h2>", "<br><h2>")
@@ -165,7 +167,7 @@ namespace JsonToRssGenerator
                 .Replace("<h6>", "<br><h6>");
 
             //удаляем сохраняем только часть оформления
-            var descriptionText = MarkdownToTextConverter.Convert(episode.Description);
+            var descriptionText = MarkdownToTextConverter.Convert(description);
 
             //текстовое описание
             WriteValue("description", descriptionText);

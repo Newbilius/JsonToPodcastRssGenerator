@@ -15,6 +15,7 @@
         public string ImageUrl;
 
         public string Description;
+        public string EpisodeDescriptionFooter;
 
         public Category[] Categories;
         public Episode[] Episodes;

@@ -20,6 +20,9 @@ namespace Tests
                 AuthorName = "tmp",
                 ImageUrl = "tmp",
                 Description = "tmp",
+                EpisodeDescriptionFooter = "\n" +
+                                           "# additional data\n" +
+                                           "after every item",
                 Language = "tmp",
                 Categories = new[]
                 {
@@ -29,8 +32,19 @@ namespace Tests
                 {
                     new Episode
                     {
-                        Title = "tmp",
-                        MP3FileUrl = "tmp",
+                        Title = "tmp1_title",
+                        Description = "tmp1_description",
+                        DurationMinutes = 10,
+                        Date = new DateTime(2019, 05, 06),
+                        Id = "E1",
+                        EpisodeNumber = 1,
+                        MP3FileSizeBytes = 23456,
+                        MP3FileUrl = "tmp1_url"
+                    },
+                    new Episode
+                    {
+                        Title = "tmp2_description",
+                        MP3FileUrl = "tmp2_url",
                         MP3FileSizeBytes = 1,
                         Description = @"Здесь будет довольно длинное описание этого эпизода
 
@@ -79,8 +93,30 @@ namespace Tests
 		<itunes:category
 			text=""tmp"" />
 		<item>
-			<title>tmp</title>
-			<itunes:title>tmp</itunes:title>
+			<title>tmp1_title</title>
+			<itunes:title>tmp1_title</itunes:title>
+			<itunes:author>tmp</itunes:author>
+			<pubDate>Mon, 06 May 2019 00:00:00 GMT</pubDate>
+			<itunes:duration>10:</itunes:duration>
+			<itunes:episode>1</itunes:episode>
+			<guid>E1</guid>
+			<itunes:explicit>No</itunes:explicit>
+			<enclosure
+				url=""tmp1_url""
+				length=""23456""
+				type=""audio/mpeg"" />
+			<description>tmp1_description
+# additional data
+after every item</description>
+			<content:encoded><![CDATA[<p>tmp1_description</p>
+
+<br><h1>additional data</h1>
+
+<p>after every item</p>]]></content:encoded>
+		</item>
+		<item>
+			<title>tmp2_description</title>
+			<itunes:title>tmp2_description</itunes:title>
 			<itunes:author>tmp</itunes:author>
 			<pubDate>Sun, 12 May 2019 00:00:00 GMT</pubDate>
 			<itunes:duration>10:</itunes:duration>
@@ -88,7 +124,7 @@ namespace Tests
 			<guid>tmp</guid>
 			<itunes:explicit>No</itunes:explicit>
 			<enclosure
-				url=""tmp""
+				url=""tmp2_url""
 				length=""1""
 				type=""audio/mpeg"" />
 			<description>Здесь будет довольно длинное описание этого эпизода
@@ -107,7 +143,9 @@ namespace Tests
 
 Тут в тексте будет ссылка на файл (http://www.hosting.ru/file.zip) где-то в интернетах.
 
-А ещё не забудем про *жирный* и *курсив*, ага?</description>
+А ещё не забудем про *жирный* и *курсив*, ага?
+# additional data
+after every item</description>
 			<content:encoded><![CDATA[<p>Здесь будет довольно длинное описание этого эпизода</p>
 
 <br><h1>Заголовок первого уровня</h1>
@@ -124,7 +162,11 @@ namespace Tests
 
 <p>Тут в тексте будет <a href=""http://www.hosting.ru/file.zip"">ссылка на файл</a> где-то в интернетах.</p>
 
-<p>А ещё не забудем про <strong>жирный</strong> и <em>курсив</em>, ага?</p>]]></content:encoded>
+<p>А ещё не забудем про <strong>жирный</strong> и <em>курсив</em>, ага?</p>
+
+<br><h1>additional data</h1>
+
+<p>after every item</p>]]></content:encoded>
 		</item>
 	</channel>
 </rss>");
