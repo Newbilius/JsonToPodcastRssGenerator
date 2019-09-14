@@ -1,55 +1,140 @@
 ﻿{
-	"Title": "Заголовок подкаста",
-	"Subtitle": "Подзаголовок подкаста",
-	"Link": "http://www.example.ru",
-	"Language": "RU",
-	"Author": "Автор подкаста",
-	"AuthorEmail": "author@example.com",
-	"AuthorName": "Автор",
-	"ImageUrl": "https://www.example.com/example.jpg",
-	"Explicit": false,
-	"Description": "Краткое описание в формате Markdown",
-	"Categories": [
+	"Title":"Old-Hard",
+	"Link":"http://www.old-hard.ru",
+	"Subtitle":"Старые компьютерные игры и железо",
+	"Language":"RU",
+	"Author":"Дмитрий Newbilius Моисеев",
+	"AuthorEmail":"newbilius@gmail.com",
+	"AuthorName":"Дмитрий Newbilius Моисеев",
+	"ImageUrl":"https://old-hard.ru/podcast/podcast_cover.png",
+	"Description":"Подкаст посвящён старым компьютерным играм и железу (трёхмерным ускорителям, игровым приставкам, ноутбукам и т.п.) и является спин-оффом выходящей с 2013 года одноимённой Youtube-передачи.
+	
+В рамках подкаста я также буду рассказывать про новые игры в олдскульном стиле, книги, фильмы и сериалы, связанные с играми или IT, в общем - буду затрагивать любые околоайтишные или околоигровые темы.
+
+Ведущий: Дмитрий Newbilius Моисеев (Old-Hard.RU)",
+	  "Categories": [
 		{
-			"Name": "Leisure",
-			"SubCategory": "Video Games"
+		  "Name": "Leisure",
+		  "SubCategory": "Video Games"
 		},
 		{
-			"Name": "Technology"
-		}
-	],
-	"Episodes": [
-		{
-			"Id": "ID_1",
-			"MP3FileUrl": "https://www.example.com/podcast/01.mp3",
-			"MP3FileSizeBytes": 42,
-			"Explicit": false,
-			"Title": "Заголовок выпуска",
-			"Subtitle": "Подзаголовок выпуска",
-			"Date": "2019-08-25",
-			"Description": "Описание в формате markdown",
-			"ImageUrl": "https://www.example.com/podcast/01.png",
-			"DurationHours": 1,
-			"DurationMinutes": 20,
-			"DurationSeconds": 27,
-			"Link": "https://www.example.com/podcast/01.html",
-			"EpisodeNumber": 1,
-			"SeasonNumber": 1
+		  "Name": "Technology"
 		},
 		{
-			"Id": "ID_2",
-			"MP3FileUrl": "https://www.example.com/podcast/02.mp3",
-			"MP3FileSizeBytes": 56,
-			"Explicit": false,
-			"Title": "Заголовок выпуска номер два",
-			"Subtitle": "Подзаголовок выпуска номер два",
-			"Date": "2019-09-13",
-			"Description": "Описание в формате markdown",
-			"ImageUrl": "https://www.example.com/podcast/02.png",
-			"DurationMinutes": 15,
-			"Link": "https://www.example.com/podcast/02.html",
-			"EpisodeNumber": 1,
-			"SeasonNumber": 2
+		  "Name": "Leisure",
+		  "SubCategory": "Games"
 		}
-	]
+	  ],
+	  "Episodes": [
+	  		{
+		  "Id": "OLD_HARD_01_02",
+		  "MP3FileUrl": "https://old-hard.ru/podcast/old_hard_podcast_02_games.mp3",
+		  "MP3FileSizeBytes": 36968969,
+		  "Title": "Недавно поиграл: Ion Fury, Undead Horde и ещё несколько игр",
+		  "Subtitle": "Giana Sisters: Twisted Dreams, Fury Unleashed, The Dark Pictures Anthology: Man of Medan, Ion Fury, Undead Horde (и не только)",
+		  "Date": "2019-09-14T00:00:00",
+		  "Description": "Личное мнение о нескольких играх, в которые я недавно поиграл. Выпуск подкаста записывался онлайн с чатом, так что я ещё зачитывал некоторые вопросы из чата по поводу указанных игр.
+
+* [00:00] Ion Fury / Ion Maiden
+* [10:59] Giana Sisters: Twisted Dreams
+* [17:37] Half-Life 1 и 2 - внезапное микромнение
+* [18:28] Undead Horde
+* [25:20] Quake Champions - внезапное микромнение
+* [25:47] The Dark Pictures Anthology: Man of Medan
+* [34:26] Fury Unleashed
+
+### Игры, упомянутые в выпуске
+
+* [Ion Fury / Ion Maiden](https://store.steampowered.com/app/562860/Ion_Fury/)
+* [Rise of the Triad 2013](https://store.steampowered.com/app/217140/Rise_of_the_Triad/)
+* [DUSK](https://store.steampowered.com/app/519860/DUSK/)
+* [Giana Sisters: Twisted Dreams](https://store.steampowered.com/app/223220/Giana_Sisters_Twisted_Dreams/)
+* [The Great Giana Sisters - версия 1987 года](https://www.old-games.ru/game/4774.html)
+* [Undead Horde](https://store.steampowered.com/app/790850/Undead_Horde/)
+* [Quake Champions](https://store.steampowered.com/app/611500/Quake_Champions/)
+* [The Dark Pictures Anthology: Man of Medan](https://store.steampowered.com/app/939850/The_Dark_Pictures_Anthology_Man_of_Medan/)
+* [Press X to Not Die](https://store.steampowered.com/app/402330/Press_X_to_Not_Die)
+* [Fury Unleashed](https://store.steampowered.com/app/465200/Fury_Unleashed/)
+
+### Дополнительная информация
+
+* [Old-Hard №76 - мой прошогодний рассказ про Ion Fury и DUSK](https://www.youtube.com/watch?v=Lx2fXnuC6HQ)
+* [Стрим с записью этого выпуска подкаста на Youtube](https://www.youtube.com/watch?v=BNaC15XdaIg)
+
+### Где можно слушать подкаст
+
+* [iTunes](https://podcasts.apple.com/ru/podcast/old-hard/id1477741470)
+* [Google-подкасты](https://podcasts.google.com/?feed=aHR0cHM6Ly9vbGQtaGFyZC5ydS9vbGRfaGFyZC54bWw)
+* [Подкасты Вконтакте](https://vk.com/podcasts-60351656)
+* [Яндекс.Немузыка](https://music.yandex.ru/album/8501501)
+* [MP3 на Яндекс.Диске](https://yadi.sk/d/FWi74wf4RPHSWA)
+* [Pod.FM](https://podfm.ru/podcasts/old-hard/)
+* [RSS](https://old-hard.ru/old_hard.xml)
+* [Telegram](https://t.me/oldhard_podcast)
+* [Сайт подкаста](http://www.old-hard.ru)
+* [Обсуждение подкаста в Телеграме](https://t.me/oldhard)",
+		  "ImageUrl": "https://old-hard.ru/podcast/02.png",
+		  "DurationHours": 0,
+		  "DurationMinutes": 38,
+		  "DurationSeconds": 29,
+		  "Link": "https://www.youtube.com/watch?v=BNaC15XdaIg",
+		  "EpisodeNumber": 2,
+		  "SeasonNumber": 1
+		},
+		{
+		  "Id": "OLD_HARD_01_01",
+		  "MP3FileUrl": "https://old-hard.ru/podcast/old_hard_podcast_01v2.mp3",
+		  "MP3FileSizeBytes": 48939997,
+		  "Title": "FMV-игры компании Wales Interactive (и не только)",
+		  "Subtitle": "Рассказ про современые FMV-игры, плюс немного истории жанра и старых игр",
+		  "Date": "2019-08-25T00:00:00",
+		  "Description": "Поговорим об истории жанра FMV-игр, а также нескольких современных (и не очень) играх этого жанра.
+
+* [03:14] Что такое FMV? История жанра и примеры игр
+* [11:49] Игра Night Trap, или почему я решил поднять эту тему
+* [17:09] О выборе игр от Wales Interactive
+* [18:02] Игра Late Shift
+* [25:42] Игра The Bunker
+* [35:28] Игра The Shapeshifting Detective
+* [49:23] Игра Press X to Not Die
+
+### Игры из выпуска
+
+* [Night Trap - 25th Anniversary Edition](https://store.steampowered.com/app/643620/Night_Trap__25th_Anniversary_Edition)
+* Late Shift в [Steam](https://store.steampowered.com/app/584980/Late_Shift) и [GOG](https://www.gog.com/game/late_shift)
+* [The Bunker](https://store.steampowered.com/app/481110/The_Bunker)
+* [The Shapeshifting Detective](https://store.steampowered.com/app/898650/The_Shapeshifting_Detective/)
+* [Press X to Not Die в Steam](https://store.steampowered.com/app/402330/Press_X_to_Not_Die)
+* [Dragons Lair](https://www.old-games.ru/game/8623.html)
+* [Who Shot Johnny Rock?](https://www.old-games.ru/game/7863.html)
+
+### Дополнительная информация
+
+* [Old-Hard №55 - мой рассказ про Rebel Assault (FMV по Звёздным Войнам)](https://www.youtube.com/watch?v=QzlmJlh7gT8)
+* [Стрим Шварценпуха по Night Trap](https://www.youtube.com/watch?v=Vq7LjzHSBIU)
+* [«Есть ли жизнь в инди играх?» про Press X Not To Die](https://www.youtube.com/watch?v=YH24xDnUGmY)
+* [Лазерный диск (который НЕ компакт-диск)](https://ru.wikipedia.org/wiki/LaserDisc)
+* [Стрим с записью этого выпуска подкаста на Youtube](https://www.youtube.com/watch?v=yOpYSbu5NCA)
+
+### Где можно слушать подкаст
+
+* [iTunes](https://podcasts.apple.com/ru/podcast/old-hard/id1477741470)
+* [Google-подкасты](https://podcasts.google.com/?feed=aHR0cHM6Ly9vbGQtaGFyZC5ydS9vbGRfaGFyZC54bWw)
+* [Подкасты Вконтакте](https://vk.com/podcasts-60351656)
+* [Яндекс.Немузыка](https://music.yandex.ru/album/8501501)
+* [MP3 на Яндекс.Диске](https://yadi.sk/d/FWi74wf4RPHSWA)
+* [Pod.FM](https://podfm.ru/podcasts/old-hard/)
+* [RSS](https://old-hard.ru/old_hard.xml)
+* [Telegram](https://t.me/oldhard_podcast)
+* [Сайт подкаста](http://www.old-hard.ru)
+* [Обсуждение подкаста в Телеграме](https://t.me/oldhard)",
+		  "ImageUrl": "https://old-hard.ru/podcast/01.png",
+		  "DurationHours": 0,
+		  "DurationMinutes": 50,
+		  "DurationSeconds": 57,
+		  "Link": "https://www.youtube.com/watch?v=yOpYSbu5NCA",
+		  "EpisodeNumber": 1,
+		  "SeasonNumber": 1
+		}
+	  ]
 }

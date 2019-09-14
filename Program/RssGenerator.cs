@@ -31,7 +31,7 @@ namespace JsonToRssGenerator
         {
             Validate(channel);
 
-            using (var stringWriter = new StringWriter())
+            using (var stringWriter = new Utf8StringWriter())
             {
                 using (writer = XmlWriter.Create(stringWriter, xmlWriterSettings))
                 {

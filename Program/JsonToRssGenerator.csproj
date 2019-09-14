@@ -55,6 +55,7 @@
     <Compile Include="MarkdownToTextConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="RssGenerator.cs" />
+    <Compile Include="Utf8StringWriter.cs" />
     <Compile Include="ValidationException.cs" />
   </ItemGroup>
   <ItemGroup>
