@@ -41,6 +41,10 @@ namespace JsonToRssGenerator
                 Console.WriteLine("ОШИБКА");
                 Console.WriteLine(exception.Message);
             }
+            catch(JsonReaderException exception) {
+                Console.WriteLine("ОШИБКА РАЗБОРА JSON");
+                Console.WriteLine($"Строка {exception.LineNumber}, позиция {exception.LinePosition}");
+            }
         }
 
         private static string GetOutputFileName(string inputFileName, string[] args)
